@@ -33,7 +33,7 @@ const rules: KarabinerRules[] = [
         ],
         to_if_alone: [
           {
-            key_code: "escape",
+            key_code: "left_control",
           },
         ],
         type: "basic",
@@ -70,7 +70,7 @@ const rules: KarabinerRules[] = [
       d: app("Discord"),
       e: app("Superhuman"),
       n: app("Notion"),
-      t: app("Ghosty"),
+      t: app("Ghostty"),
       // Open todo list managed via *H*ypersonic
       h: open(
         "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
@@ -117,7 +117,8 @@ const rules: KarabinerRules[] = [
       j: window("bottom-half"),
       h: window("left-half"),
       l: window("right-half"),
-      f: window("maximize"),
+      a: window("maximize"),
+      f: window("toggle-fullscreen"),
       u: {
         description: "Window: Previous Tab",
         to: [
