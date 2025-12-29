@@ -120,13 +120,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://hashnode.com/draft"
+                    "shell_command": "open https://instagram.com/direct/inbox"
                   }
                 ],
-                "description": "Open https://hashnode.com/draft",
+                "description": "Open https://instagram.com/direct/inbox",
                 "type": "basic",
                 "from": {
-                  "key_code": "h",
+                  "key_code": "i",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -144,13 +144,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://instagram.com/direct/inbox"
+                    "shell_command": "open https://google.com"
                   }
                 ],
-                "description": "Open https://instagram.com/direct/inbox",
+                "description": "Open https://google.com",
                 "type": "basic",
                 "from": {
-                  "key_code": "i",
+                  "key_code": "g",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -238,10 +238,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Google Chrome.app'"
+                    "shell_command": "open -a 'Brave.app'"
                   }
                 ],
-                "description": "Open -a 'Google Chrome.app'",
+                "description": "Open -a 'Brave.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "g",
@@ -334,10 +334,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Superhuman.app'"
+                    "shell_command": "open -a 'Shortwave.app'"
                   }
                 ],
-                "description": "Open -a 'Superhuman.app'",
+                "description": "Open -a 'Shortwave.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "e",
@@ -406,10 +406,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
+                    "shell_command": "open -a 'Google Chat.app'"
                   }
                 ],
-                "description": "Open notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026",
+                "description": "Open -a 'Google Chat.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "h",
@@ -1924,13 +1924,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/peduarte/silent-mention/index"
+                    "shell_command": "open raycast://extensions/reboot/hypersonic/index"
                   }
                 ],
-                "description": "Open raycast://extensions/peduarte/silent-mention/index",
+                "description": "Open raycast://extensions/reboot/hypersonic/index",
                 "type": "basic",
                 "from": {
-                  "key_code": "s",
+                  "key_code": "t",
                   "modifiers": {
                     "optional": [
                       "any"

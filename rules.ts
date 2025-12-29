@@ -59,22 +59,20 @@ const rules: KarabinerRules[] = [
     // b = "B"rowse
     b: {
       // Quarterly "P"lan
-      h: open("https://hashnode.com/draft"),
       i: open("https://instagram.com/direct/inbox"),
+      g: open("https://google.com"),
     },
     // o = "Open" applications
     o: {
-      g: app("Google Chrome"),
+      g: app("Brave"),
       c: app("Calendar"),
       v: app("Zed"),
       d: app("Discord"),
-      e: app("Superhuman"),
+      e: app("Shortwave"),
       n: app("Notion"),
       t: app("Ghostty"),
       // Open todo list managed via *H*ypersonic
-      h: open(
-        "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
-      ),
+      h: app("Google Chat"),
       // "M"arkdown (Reflect.app)
       m: app("Obsidian"),
       f: app("Finder"),
@@ -296,7 +294,7 @@ const rules: KarabinerRules[] = [
       ),
       p: open("raycast://extensions/raycast/raycast/confetti"),
       a: open("raycast://extensions/raycast/raycast-ai/ai-chat"),
-      s: open("raycast://extensions/peduarte/silent-mention/index"),
+      t: open("raycast://extensions/reboot/hypersonic/index"),
       h: open(
         "raycast://extensions/raycast/clipboard-history/clipboard-history"
       ),
